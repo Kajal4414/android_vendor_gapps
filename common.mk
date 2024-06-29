@@ -22,8 +22,7 @@ PRODUCT_PACKAGES += \
     GmsCore \
     GooglePartnerSetup \
     GoogleRestore \
-    Phonesky \
-    Velvet
+    Phonesky
 
 # System_ext
 PRODUCT_PACKAGES += \
