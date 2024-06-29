@@ -16,7 +16,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleCalendarSyncAdapter \
     GoogleContactsSyncAdapter \
-    SoundPickerPrebuilt \
     SpeechServicesByGoogle \
     AndroidAutoStub \
     GmsCore \
