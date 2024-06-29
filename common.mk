@@ -17,22 +17,17 @@ PRODUCT_PACKAGES += \
     GoogleCalendarSyncAdapter \
     GoogleContactsSyncAdapter \
     GmsCore \
-    GooglePartnerSetup \
-    GoogleRestore \
     Phonesky
 
 # System_ext
 PRODUCT_PACKAGES += \
-    GoogleServicesFramework \
-    SetupWizard
+    GoogleServicesFramework
 
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.theme_id=5 \
-    ro.opa.eligible_device=true \
-    ro.setupwizard.rotation_locked=true \
-    setupwizard.theme=glif_v3_light
+    ro.opa.eligible_device=true
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PRODUCT_PROPERTIES += \
