@@ -16,8 +16,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleCalendarSyncAdapter \
     GoogleContactsSyncAdapter \
-    SpeechServicesByGoogle \
-    AndroidAutoStub \
     GmsCore \
     GooglePartnerSetup \
     GoogleRestore \

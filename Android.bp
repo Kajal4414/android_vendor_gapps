@@ -24,29 +24,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SpeechServicesByGoogle",
-	owner: "google",
-	apk: "product/app/SpeechServicesByGoogle/SpeechServicesByGoogle.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "AndroidAutoStub",
-	owner: "google",
-	apk: "product/priv-app/AndroidAutoStub/AndroidAutoStub.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "GmsCore",
 	owner: "google",
 	apk: "product/priv-app/GmsCore/GmsCore.apk",
