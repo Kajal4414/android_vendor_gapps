@@ -25,8 +25,6 @@ PRODUCT_PACKAGES += \
 
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.ime.bs_theme=true \
-    ro.com.google.ime.theme_id=5 \
     ro.opa.eligible_device=true
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
